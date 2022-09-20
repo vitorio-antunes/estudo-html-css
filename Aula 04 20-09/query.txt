@@ -1,0 +1,8 @@
+http://127.0.0.1:5500/Aula%2004%2020-09/cadastro.html?
+campoNome=Vit%C3%B3rio+Antunes
+&campoEmail%21=vitorioantunes01%40gmail.com
+&campoSenha=adgpagad
+&campoProfissao=t%C3%A9cnico
+&campoIdioma=portugues
+&campoResumo=Soul+apaixonado+por+tecnologia.
+&concordaTermos=on

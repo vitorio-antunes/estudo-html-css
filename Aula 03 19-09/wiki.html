@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,82 +7,105 @@
     <title>Document</title>
 </head>
 <body>
-    <header> <!-- Cabeçalho = introduz algo -->
+    <header> <!-- çlho = Introduz algo -->
         <h1>Estudo do HTML</h1>
-        <p>Conceitos introdutórios da linguagem</p>
+        <h3>Copnceitos introdutórios da linguagem</h3>
         <nav> <!-- Agrupa links de navegação -->
             <ol>
-                <li><a href="#intro">Introdução</a></li>
+                <li> <a href="#intro">Introdução</a> </li>
             </ol>
         </nav>
     </header>
+
     <main> <!-- Conteúdo principal da página -->
-        <section> <!-- Separa tópicos/conteúdos -->
-            <h3>Uso de tags</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam enim doloremque dolores ullam doloribus voluptatum fuga, sapiente et sit saepe quam cum fugit aliquam animi voluptas, voluptatem commodi cumque culpa.</p>
+        <section> <!--Separa tópicos/conteúdos -->
+            <h3>Uso de tag</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Earum tenetur voluptas fugit sit accusantium, possimus 
+                quis amet quae recusandae optio eligendi doloribus? Molestiae
+                dolorum minus iste, ab facilis numquam quas?
+            </p>
         </section>
         <section>
             <h3>Uso de tabelas</h3>
-            <table border="1" cellpadding="3" style="border-collapse: collapse;">
-                <thead> <!-- Cabeçalho da tabela -->
-                    <tr>
-                        <!-- colspan = duração da coluna -->
-                        <th colspan="4">Usuários</th>
+
+            <h2>Carrinho de compras</h2>
+            <p>Os produtos, quantidades e preços que você escolheu</p>
+            <table border="1" cellpadding="3" style="border-collapse: collapse;  text-align: center;">
+              <thead> <!-- Cabeçalho da tabela-->
+                <tr><td colspan="5" bgcolor="#4bcfff"><h2>Pedidos</h2></td></tr>
+                    <tr bgcolor="#4bcfff"> <!-- Table Row -->
+                        <th>Imagem</th>
+                        <th>Produto</th>
+                        <th>AT.</th>
+                        <th>QTD.</th>
+                        <th>Total</th>
                     </tr>
-                    <tr> <!-- Table Row -->
-                        <th>Tipo</th>
-                        <th>Nome</th> <!-- Table Header -->
-                        <th>CPF</th>
-                        <th>Data Nasc.</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="2">Funcionário</td>
-                        <td>José Almir</td> <!-- Table Data -->
-                        <td>000.000.000-00</td>
-                        <td>26/06/1999</td>
-                    </tr>
-                    <tr>
-                        <td>Maria Aparecida</td> <!-- Table Data -->
-                        <td>000.000.000-00</td>
-                        <td>27/01/1978</td>
-                    </tr>
-                    <tr> <!-- rowspan = duração da linha -->
-                        <td rowspan="2">Cliente</td>
-                        <td>Carlos José</td> <!-- Table Data -->
-                        <td>000.000.000-00</td>
-                        <td>01/01/1993</td>
-                    </tr>
-                    <tr>
-                        <td>Carlos José</td> <!-- Table Data -->
-                        <td>000.000.000-00</td>
-                        <td>01/01/1993</td>
-                    </tr>
-                </tbody>
-            </table>
-            <hr />
-            <table border="1" cellpadding="4" style="border-collapse: collapse;">
-                <tr>
-                    <td colspan="2">Celula 1-1</td>
-                    <td>Celula 1-3</td>
+              </thead>
+
+              <tbody>
+
+                <tr bgcolor="#e5f8ff">
+                    <td> <img src="./img/img01.jpg" alt="" width="50"> </td> <!-- Table Data -->
+                    <td>Smartphone Xiaome Mi 9</td>
+                    <td>64G</td>
+                    <td>1x1752,0</td>
+                    <td>R$ 1752,00</td>
                 </tr>
+
+                <tr>
+                    <td><img src="./img/img02.jpg" alt="" width="50"></td>
+                    <td>Smartphone Sansumg Galaxy A32</td>
+                    <td>128G</td>
+                    <td>1x2253,70</td>
+                    <td>R$ 2253,70</td>
+                </tr>
+
+                <tr bgcolor="#e5f8ff">
+                    <td><img src="./img/img03.jpg" alt="" width="50"></td>
+                    <td>Smartphone LG  K22</td>
+                    <td>32G</td>
+                    <td>1x1999,99</td>
+                    <td>R$ 1999,99</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Total produtos</td> <!-- rowspan = duração da coluna -->
+                    <td colspan="2"><b>R$ 6005,69</b></td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <hr>
+
+            <table border="1" collpadding="4" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2"> Celula 1-1</td>
+                    <td>Celula 1-2</td>
+                </tr>
+
                 <tr>
                     <td>Celula 2-1</td>
                     <td>Celula 2-2</td>
                     <td>Celula 2-3</td>
                 </tr>
+
             </table>
         </section>
+
+        <hr>
+
+
+        <footer> <!-- Dá informações sobre autoria/encerra o conteúdo -->
+
+            ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Soulcode Academy
+        </footer>
     </main>
-    <hr /> <!-- Horizontal Rule -->
-    <footer> <!-- Dá informações sobre autoria/encerra o conteúdo-->
-        ©
-        <script>
-            // comentario
-            document.write(new Date().getFullYear())
-        </script>
-        Soulcode Academy
-    </footer>
 </body>
 </html>

@@ -1,0 +1,6 @@
+Exercício HTML
+
+1) Criem uma nova página html
+2) Escrevam sobre algum ponto turístico da sua cidade
+3) Use imagens, links, listas, âncoras e cabeçalhos.
+4) Suba o exercício p/ o github!!!

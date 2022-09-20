@@ -1,37 +1,49 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Indica ao navegador p/ utilizar a versão mais recente -->
+<html lang="pt"> <!-- Pai/Raiz de todas as tags -->
+    <head><!-- Manter informações da página -->
+        <!-- Meta tags-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Uma página para estudar HTML!">
+        <meta name="author" content="paulo-antonio">
+        <meta name="keywords" content="html, estudo">
+        <title>Página Inicial</title>
+    </head>
+    <body> <!-- Contém a parte visual da página -->
+       <p>Olá, tudo bem?</p>
+       <p>Sim, estou ótimo</p>
+       <p>Olá, estamos iniciando, um novo bootcamp de java Fullstack</p>
+       <br><br><br>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="polvinh0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A tribo cobra</title>
-</head>
+        <!-- Title é uma dica do elemento -->
+        <p title="Boas vindas!">Bem vindo(a) ao nosso site</p>
+        <button title="Clique aqui para continuar">Clique</button>
+        <!-- hidden oculta o elemento! -->
+        <p hidden>Ué, sumiu!</p>
 
-<body>
-    Salve3333333333333 <BR>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima,<br>
-    qui optio doloremque incidunt eligendi aperiam quasi molestias expedita adipisci, <br>
-    dolores id ut maiores iste dolorem cupiditate enim assumenda soluta?<br>
-    <button title="Clique aqui">Clique </button>
-    <br>
-    <h1>Exemplo de Texto em h1</h1>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, atque?</p>
-    <h2>Exemplo de Texto em h2</h2>
-    <p></p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, distinctio. Quidem ipsum possimus repellat totam neque dolorum dignissimos harum accusantium ab. Harum laudantium culpa quia molestias nisi suscipit tempora dolore!
+        </p> <!-- Comando Alt+Z para quebrar textos no editor-->
 
+        <h1>Introdução ao HTML</h1> <!-- Maior relevância -->
+        <P>Bem vindo(a) a introdução a HTML básico</P>
+        <h2>Metas tags</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <h3>Meta charset</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
 
-    <!-- src = source -->
-    <img src="img/rapeseed-gdaaf40f83_1920.jpg" alt="Fazenda" width="350" /><br>
+        <!-- src = source -->
+        <!-- width = largura, heigth = largura -->
+        <img src="./img/paisagem.jpg" alt="paisagem" width="350">
 
-    <img src="https://cdn.pixabay.com/photo/2022/07/25/15/18/cat-7344042_960_720.jpg" alt="Um gatinho" width="350">
-    <br>
-    <a href="ajuda.html">ir para Ajuda</a><br>
+        <!-- alt = descrição da imagem-->
+        <img src="https://cdn.pixabay.com/photo/2022/07/25/15/18/cat-7344042_960_720.jpg" alt="gatinho" width="350">
 
-    <a href="http://www.google.com" target="">Ir para o google</a>
-
-
-</body>
-
+        <br>
+        <!-- href = referencia de hipertexto -->
+        <a href="ajuda.html" title="Ir para ajuda">Ajuda</a><br>
+        <!-- target = _blank abre uma nova aba -->
+        <a href="https://www.google.com.br/" target="_blank" title="Ir para o google">Google</a>
+    </body>
 </html>
