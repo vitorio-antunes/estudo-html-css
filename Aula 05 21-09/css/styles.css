@@ -1,0 +1,52 @@
+/*
+Para usar o css externo devemos linkar ele ao html destino
+*/
+
+/**
+3)Seletor por Elementos
+*/
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+body {
+    background-color:black;
+    font-family:'Roboto', sans-serif; /* fallback*/
+}
+h1,h2,h3{
+    color: white;
+}
+/**
+TIPÓS DE SELETORES BASICOS (Por ordem de hierarquia)
+1) Por ID (#) => É uma estilização inica 
+2) Por classes (.) =>  É uma estilização inica para varrios elementos
+3) Por elementos
+*/
+
+/*1)O seletor Id é usado quando quero estilizar um elemento específico
+*/
+#meu-h1{
+    font-weight:100;
+    color:aqua;
+}
+
+/*2)A Class é para aplicar em diversos elementos diferentes
+*/
+.cabecalho{
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 8px;
+}
+.banner{
+    width: 100%;
+    border: 12px solid red;
+}
