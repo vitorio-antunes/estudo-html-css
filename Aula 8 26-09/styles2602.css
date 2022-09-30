@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.box-1 {
+    background-color: aqua;
+
+}
+
+.box-2 {
+    background-color: red;
+
+}
+
+.box-3 {
+    background-color: tomato;
+
+}
+
+.box-4 {
+    background-color: blue;
+
+}
+
+.container-flex {
+    background-color: silver;
+    /*Coloca a cor no fundo do container*/
+    display: flex;
+    /*Ativa o flexbox*/
+    flex-direction: row;
+    /*Distribui os elementos em seus eixos: vert(column)/hori(row)*/
+    flex-wrap: wrap;
+    /*Quebra a "linha" quando não há espaço*/
+    justify-content: center;
+    /* Aloca os elementos no eixo main e cross*/
+    align-items: center;
+    /*aloca os elementos no eixo main e cross*/
+    align-content: center;
+    /*Aloca o "conteúdo do container*/
+    height: 350px;
+    gap: 16px;
+
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 250px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
